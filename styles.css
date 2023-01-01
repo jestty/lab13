@@ -1,0 +1,38 @@
+body::before {
+  content: "";
+  display: block;
+  height: 60px;
+}
+
+.bg-img1 {
+  background-color: #000;
+  background-size: 100%;
+  padding: 200px;
+  background-image: url(https://get.wallhere.com/photo/galaxy-space-stars-Milky-Way-Andromeda-atmosphere-universe-astronomy-Messier-31-outer-space-astronomical-object-166049.jpg);
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: 100%;
+  padding: 200px;
+  background-image: url(https://www.letelegramme.fr/images/2020/10/04/astronomie-m31-ce-colosse-stellaire-qui-viendra-percuter-not_5334385_1000x526.jpg?v=1);
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: 100%;
+  padding: 200px;
+  background-image: url(https://storage.googleapis.com/happy-quiz-vn.appspot.com/zq/quizzes/ace02bc0-c565-11e6-b1e6-050901070303-compressed.jpg);
+}
+@media (max-width: 768px) {
+  .bg-img1 {
+    background-size: 180%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer p {
+    text-align: left;
+    margin-left: 0;
+  }
+}
